@@ -60,4 +60,4 @@ def get_llm_response(sys_instruct, prompt):
                 system_instruction=sys_instruct),
             contents=prompt)
     
-    return response.text
+    return response
